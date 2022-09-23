@@ -27,7 +27,7 @@ h2{padding:20px 0px 10px 0;margin:0px;color:#484848;font-weight:bold;font-size:2
 h3{padding:20px 0px 0 0;margin:0px;color:#484848;font-weight:bold;font-size:24px;}
 h4{padding:0px 0px 0 0;margin:0px;color:#484848;font-weight:bold;font-size:18px;}
 /*-----------------------main container----------------------------------*/
-#main_container{width:900px;height:auto;margin:0px 0 0 230px;padding:0px 0 40px 0; float:left; background-color:#fff; position:relative;-moz-box-shadow:0 0 6px #7d7d7d;-webkit-box-shadow:0 0 6px #7d7d7d;box-shadow:0 0 6px #7d7d7d;border-top:5px solid #0091ed;}
+#main_container{width:900px;height:auto;margin:0px 0 0 230px;padding:0px 0 40px 0; float:left; background-color:#fff; position:relative;-moz-box-shadow:0 0 6px #7d7d7d;-webkit-box-shadow:0 0 6px #7d7d7d;box-shadow:0 0 6px #7d7d7d;border-top:5px solid #0091ed; background-color:lightgray;}
 #main_container_2{width:900px;height:auto;margin:0px 0 0 230px;padding:0px 0 40px 0; float:left; background-color:#fff; position:relative;-moz-box-shadow:0 0 6px #7d7d7d;-webkit-box-shadow:0 0 6px #7d7d7d;box-shadow:0 6px 6px #7d7d7d;}
 #header{width:1000px;height:160px;margin:auto;}
 a.bookmark{
@@ -382,7 +382,7 @@ img.sidebarpost_thumb{float:left;width:50px; height:50px; border:1px #eeeeee sol
 .sidebar_home_more a{color:#4f4f4d;background-color:#eeeeee;font-size:16px;margin:0px;padding:3px 8px 3px 8px;float:right;}
 
 
-.page_content{width:800px; float:left; padding:25px 0 0 19px;}
+.page_content{width:800px; float:left; padding:25px 0 0 19px; background-color:lightgray;}
 .pages_thumb{border:3px #dfddd4 solid; margin:24px 0 20px 0;}
 .pages_post_descr{width:650px;border-top:1px #f0eee5 solid;border-bottom:1px #f0eee5 solid;padding:5px 0 5px 0;}
 .pages_post_descr span{padding:0 25px 0 5px;}
@@ -390,8 +390,8 @@ img.sidebarpost_thumb{float:left;width:50px; height:50px; border:1px #eeeeee sol
 .pages_post_descr span a:hover{text-decoration:underline;}
 
 /*.page_content ul{ padding:10px 0 20px 20px; margin:0; list-style:none;}*/
-.page_content ul{ padding:20px 0 20px 20px; margin:0;}
-.page_content ul li{ padding:4px 0 4px 0; margin:0px;}
+.page_content ul{ padding:20px 0 20px 20px; margin:0; background-color:lightgray;}
+.page_content ul li{ padding:4px 0 4px 0; margin:0px; background-color:lightgray; }
 /*
 .page_content ul li a{ padding:0px 0 0 15px; margin:0px;color:#686868; background:url(./images/bullet_blue.gif) no-repeat left; text-decoration:none;}
 .page_content ul li a{ padding:0px 0 0 0px; margin:0px;color:#686868; text-decoration:none;}
