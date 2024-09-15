@@ -13,23 +13,28 @@
     }
   </style>
 </head>
-<body class="bg-gray-700 text-gray-600 font-sans overflow-hidden">
-  <div class="flex items-center justify-center h-screen">
+<body class="bg-gray-700 text-gray-600 font-sans flex flex-col min-h-screen">
+  <div class="flex-grow flex items-center justify-center p-4 sm:h-screen">
 	<div class="bg-gray-200 text-gray-900 w-3/4 h-3/4 flex flex-col p-8 rounded-lg shadow-lg">
       <div class="flex justify-between items-start mb-6">
 		<h1 class="text-3xl text-blue-800 font-semibold text-left text-shadow transition-transform transform hover:-translate-y-1">Sai Sitharaman</h1>
 
-
-        <div class="flex space-x-4">
-			<button class="py-2 px-4 bg-blue-400 hover:bg-gray-500 text-gray-900 font-semibold rounded"><a href="https://scholar.google.com/citations?hl=en&user=yoWm1KQAAAAJ">Research</a></button>
+		<!-- Button Section for Larger Screens -->
+        <div class="hidden sm:flex space-x-8">
+		  <button class="py-2 px-4 bg-blue-400 hover:bg-gray-500 text-gray-900 font-semibold rounded"><a href="https://scholar.google.com/citations?hl=en&user=yoWm1KQAAAAJ">Research</a></button>
 		  <button class="py-2 px-4 bg-orange-400 hover:bg-gray-500 text-gray-900 font-semibold rounded"><a href="https://a.co/d/iqTdkeY">Time Travel</a></button>
         </div>
       </div> 
 
+      <div class="sm:hidden flex space-x-4 mb-4">
+		  <button class="py-2 px-4 bg-blue-400 hover:bg-gray-500 text-gray-900 font-semibold rounded"><a href="https://scholar.google.com/citations?hl=en&user=yoWm1KQAAAAJ">Research</a></button>
+		  <button class="py-2 px-4 bg-orange-400 hover:bg-gray-500 text-gray-900 font-semibold rounded"><a href="https://a.co/d/iqTdkeY">Time Travel</a></button>
+      </div>
+
 	  <hr class="border-gray-300 border-2 mb-6 w-full">
 
       <p class="text-xl text-left">
-        I loved abstractions and mathematical models since childhood, and building software naturally aligned with my academic and scientific pursuits throughout my career. 
+        I loved abstractions and mathematical models since early in life, and building software naturally aligned with my academic and scientific pursuits throughout. 
         I've particularly enjoyed developing products focused on infrastructure and security software.
       </p>
 
@@ -79,5 +84,9 @@
 
     </div>
   </div>
+
+  <footer class="bg-gray-700 text-gray-400 text-center py-2">
+    <p class="text-sm">&copy; 2024. All rights reserved.</p>
+  </footer>
 </body>
 </html>
